@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Header from './template/Header';
 import NavigationBar from './template/NavigationBar'; 
 
-export default function AppLayout() {
+export default function SuperUserLayout() {
     return (
       <>
         <Header/>
