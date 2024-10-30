@@ -3,10 +3,10 @@ import jcpLogo from '/images/jcp-logo.svg';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-2 px-4 bg-[#202020] text-white w-full">
+    <header className="hidden md:flex justify-between items-center py-2 px-4 bg-[#202020] text-white w-full">
       <div className="flex items-center">
         <img src={jcpLogo} alt="JCP Logo" className="h-8 w-8 mr-4" />
-        <h1 className="text-lg">Demo Title</h1>
+        <h1 className="text-lg">Voucher Portal</h1>
       </div>
       <div className="flex items-center">
         <span className="mr-4">Super User</span>
